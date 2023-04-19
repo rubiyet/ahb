@@ -2914,6 +2914,10 @@ ol {
 	.container {
 		max-width: 1170px;
 	}
+	.blog__details__author {
+		overflow: hidden;
+		margin-bottom: 25px;
+	}
 }
 
 /* Medium Device = 1200px */
@@ -2943,6 +2947,11 @@ ol {
 	.shoping__discount form input {
 		width: 240px;
 	}
+	.blog__details__author {
+		overflow: hidden;
+		margin-bottom: 25px;
+	}
+	
 }
 
 /* Tablet Device = 768px */
@@ -3236,7 +3245,7 @@ ol {
 	}
 	.blog__details__author {
 		overflow: hidden;
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 	}
 	.humberger__open {
 		display: block;
