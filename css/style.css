@@ -91,6 +91,10 @@ a:focus {
 	outline: none;
 	color: #ffffff;
 }
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 
 ul,
 ol {
