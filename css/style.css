@@ -3180,6 +3180,9 @@ ol {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.hero__item {
+		display: none;
+	}
 	.hero__categories {
 		margin-bottom: 30px;
 	}
@@ -3438,6 +3441,9 @@ ol {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.hero__item {
+		display: none;
+	}
 	.hero__search__form form .hero__search__categories {
 		display: none;
 	}
